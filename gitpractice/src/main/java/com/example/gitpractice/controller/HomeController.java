@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class HomeController {
-    @GetMapping("/get")
+    @GetMapping("/home")
     public String get(){
         System.out.println("Hi just practice git");
         return "Hello .....";
