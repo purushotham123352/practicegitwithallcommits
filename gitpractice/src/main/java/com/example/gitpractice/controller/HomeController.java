@@ -8,7 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class HomeController {
     @GetMapping("/home")
     public String get(){
-        System.out.println("Hi just practice git");
+        System.out.println("Hello from intelij ...  ");
+        System.out.println("new branch ");
         return "Hello .....";
     }
 }
